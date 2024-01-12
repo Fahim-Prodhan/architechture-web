@@ -4,9 +4,16 @@
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
+p,a {
+    color: #424242;
+}
+
 /* header CSS */
 .header {
-    height: 1322px;
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
@@ -36,7 +43,6 @@
 
 .header ul li a {
     text-decoration: none;
-    color: #424242;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -60,10 +66,8 @@
 }
 
 .head-description {
-    color: #727272;
     font-size: 16px;
     font-weight: 400;
-
 }
 
 .btn {
@@ -79,4 +83,50 @@
     width: 100%;
     border-radius: 8px;
     margin-top: 50px;
+}
+
+/* Quick List CSS */
+
+.team-container {
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-img {
+    width: 260px;
+}
+
+.team-img-container {
+    padding-left: 240px;
+}
+
+.team-content {
+    padding-left:75px;
+    padding-right: 130px;
+}
+
+.team-heading {
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.quick {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text-features {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
 }
