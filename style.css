@@ -153,8 +153,33 @@ a {
 
     .nav {
         flex-direction: column;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
+
+    /* Team */
+    .team-container {
+        flex-direction: column-reverse;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .team-img-container {
+        margin-top: 25px;
+        padding: 30px;
+    }
+    .team-content {
+        text-align: center;
+    }
+    .team-img {
+        width: 100%;
+    }
+
 }
 
 
@@ -166,4 +191,23 @@ a {
     .head-text-container {
         width: 100%;
     }
+    .team-container {
+        flex-direction: column-reverse;
+    }
+    .team-content {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .team-img-container {
+        padding: 100px;
+    }
+    .team-content {
+        text-align: center;
+    }
+    .team-img {
+        width: 100%;
+    }
+    
+    
+    
 }
