@@ -1,0 +1,43 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header CSS */
+.header {
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav-title {
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
