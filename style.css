@@ -8,13 +8,15 @@
 .header {
     height: 1322px;
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px 100px;
+    padding: 50px 240px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
+
 }
 
 .header .nav-title {
@@ -26,7 +28,6 @@
 
 .header ul {
     display: flex;
-    gap: 50px;
 }
 
 .header ul li {
@@ -39,5 +40,43 @@
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
+    margin-left: 50px;
+}
+
+/* Heading text css */
+
+.head-text-container {
+    width: 862px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.head-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btn {
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.head-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 50px;
 }
