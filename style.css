@@ -155,6 +155,15 @@ a {
         flex-direction: column;
         margin-bottom: 25px;
     }
+}
 
 
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header {
+        padding: 70px;
+    }
+
+    .head-text-container {
+        width: 100%;
+    }
 }
