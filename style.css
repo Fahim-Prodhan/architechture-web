@@ -363,7 +363,10 @@ a {
 
       /* Features */
       .features {
+        margin-top: 70px;
         flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
 
 
