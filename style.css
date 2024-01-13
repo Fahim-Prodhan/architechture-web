@@ -259,6 +259,27 @@ a {
     font-weight: 600;
 }
 
+/* sponsors CSS */
+.sponsors {
+    margin-top: 130px;
+    padding: 0 120px;
+}
+.sponsors-content {
+    text-align: center;
+}
+.sponsors-content>h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sponsors-content>p {
+    padding: 25px 0 50px 0 ;
+}
+.sponsors-img-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 
 /* Responsive Area */
 
@@ -389,6 +410,24 @@ a {
         font-size: 35px;
     }
 
+    /* sponsors CSS */
+.sponsors {
+    padding: 30px;
+}
+
+
+.sponsors-content>p {
+    padding: 25px 0 50px 0 ;
+}
+.sponsors-img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.sponsors-img-container img {
+    width: 70%;
+}
+
 }
 
 
@@ -430,6 +469,19 @@ a {
         padding: 0;
     }
 
+    /* Facts Css */
+    .facts {
+        text-align: center;
+    }
 
+    .facts-content>p {
+        width: 100%;
+    }
+
+    /* sponsor CSS */
+    .sponsors-img-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
 
 }
